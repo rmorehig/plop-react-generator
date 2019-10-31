@@ -1,4 +1,4 @@
-export function reduxConfig(data) {
+exports.reduxConfig = data => {
   const dirPath = `${__dirname}/../../..`;
   const reduxTemplates = `${__dirname}/../templates/redux`;
   let actions = [
@@ -84,4 +84,4 @@ export function reduxConfig(data) {
   }
 
   return actions;
-}
+};

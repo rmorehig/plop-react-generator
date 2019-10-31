@@ -1,6 +1,9 @@
 const listComponents = require("./listComponents");
 const { reactConfig } = require("./config/react");
 const { reduxConfig } = require("./config/redux");
+/**
+ * Generate React component for an app
+ */
 
 module.exports = {
   description: "Generate a new React component",

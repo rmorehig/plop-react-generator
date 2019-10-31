@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate": "plop --plopfile src/js/scripts/generator/index.js"
+    "generate": "./node_modules/.bin/plop --plopfile src/scripts/generator/index.js"
   },
   "eslintConfig": {
     "extends": "react-app"

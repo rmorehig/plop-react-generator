@@ -1,7 +1,7 @@
 const componentsPath = `${__dirname}/../../../components`;
 const templatesPath = `${__dirname}/../templates/react`;
 
-export function reactConfig(data) {
+exports.reactConfig = data => {
   const target = data.action === "create" ? "properCase name" : "dir";
 
   let actions = [
@@ -35,4 +35,4 @@ export function reactConfig(data) {
   }
 
   return actions;
-}
+};
